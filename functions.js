@@ -78,5 +78,53 @@
 
 //arrow function
 
-let x = (a,b) => a+b;//implicit return
-console.log(x(10,30));
+// let x = (a,b) => a+b;//implicit return
+// console.log(x(10,30));
+///////////////
+// function hof(a){
+//     return a;
+
+// };
+// let x = hof(function(){return "This is callback function"});
+// console.log(x);
+
+// let b =function(){
+//     console.log("Anonymus");
+// };
+
+// console.log(b);
+
+/////////////////////
+// function add(callback){
+//     return callback(5,3);
+// };
+// let x =add(function(a,b){return a+b});
+// console.log(x);
+
+///////////
+// let users = ["sahithi","shan","vishnu"]
+//let x users.map((user)=>){
+//return user;
+//});
+// console.log(x);
+
+//  let x = users.forEach((user)=>{
+//     return (user);
+//  });
+// console.log(x);
+///////////////////////
+// var a = 10;
+// let b = 30;
+// function x(){
+//     var user = "sahithi";
+//     let company = "Amazon";
+//     const sal = 1235667;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+
+// console.log(a,b);
+// }
+// x();
+
+
