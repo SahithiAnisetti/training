@@ -38,5 +38,17 @@
 
 // &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 //////EVENT/////
-let btn = document.getElementById("btn");
-//btn.addEventListener("events", callback)
+// let btn = document.getElementById("btn");
+// //btn.addEventListener("events", callback)
+
+
+let bgColor = document.querySelectorAll(".bgColor");
+[...bgColor].map((element)=>{
+    element.addEventListener("mouseover",()=>{
+        element.style.backgroundColor=element.innerText;
+    });
+    element.addEventListener("mouseleave",()=>{
+        element.style.backgroundColor="transparent";
+
+    })
+})
